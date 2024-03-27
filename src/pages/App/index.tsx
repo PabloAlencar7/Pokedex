@@ -4,15 +4,14 @@ import { Header } from "../../components/Header";
 import { Container } from "./style";
 
 export function App() {
-
   return (
     <Container>
-      <Header/>
+      <Header />
 
       {/* outlet is main */}
-      <Outlet/>  
+      <Outlet />
 
-      <Footer/>
+      <Footer />
     </Container>
   );
 }
